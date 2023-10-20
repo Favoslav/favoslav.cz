@@ -1,0 +1,39 @@
+html, body {
+    background-color:rgb(15,15,15);
+}
+
+.allu {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    display: inline-block;
+    position: relative;
+    width: 132px;
+    padding: 14px;
+    word-break: break-word;
+    border: 1px solid rgb(70,70,70);
+}
+
+.alluw {
+    color: white;
+    font-weight: 550; 
+    font-size: 28px; 
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.alluh {
+    color:rgb(208, 173, 226);
+    font-weight: 550; 
+    font-size: 24px; 
+    text-align: center;
+    position: relative;
+    display: block;
+}
+
+.details {
+    cursor: pointer;
+}

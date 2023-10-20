@@ -4,8 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fvslv_ | Ondřej Chmelíček | Projects</title>
-  <meta name="description" content="My name is Ondřej Chmelíček aka Favoslav_. I'm a 16-year-old IT student, developer, airsoft player, car enthusiast & furry. I'm currently working on multiple projects and most of my work is under GPL-3.0 license on GitHub.">
+  <title>Fvslv_ | Ondřej Chmelíček | My Projects</title>
+  <meta name="description" content="My name is Ondřej Chmelíček aka Favoslav_. I'm a 16-year-old IT student, developer, airsoft player & car enthusiast. I'm currently working on multiple projects and most of my work is under GPL-3.0 license on GitHub.">
   <meta name="keyword" content="chmelicek chmelíček ondrej ondřej favoslav favoslav_ portfolio fvslv_ fvslv dev developer programmer">
   <link rel="shortcut icon" type="image/x-icon" href="https://api.favoslav.cz/data/icon/current">
   <link rel="icon" type="image/x-icon" href="https://api.favoslav.cz/data/icon/current">
@@ -22,7 +22,10 @@
   </script>
 
   <link href="https://api.favoslav.cz/data/body_style/fcz" rel="stylesheet">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
   <script src="https://api.favoslav.cz/data/menu_script/v1"></script>
+  <!-- <script src="./../script.js"></script> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-FEWNFG3W1L"></script>
@@ -37,11 +40,48 @@
   <link href="https://fonts.googleapis.com/css2?family=Orbit&display=swap" rel="stylesheet">
 </head>
 <body class="overflow-x-hidden bg-[rgb(5,5,5)]">
-  <main class="container mx-auto grid h-screen place-items-center">
-    <div class="-mt-16 flex flex-col">
-      <h1 class="text-white text-center text-3xl sm:text-4xl md:text-5xl font-bold font-[Orbit] max-w-5xl">This site is still under construction. Stay tuned!</h1>
-      <a href="/" class="text-[#b83b3b] text-center mt-8 text-xl sm:text-2xl md:text-3xl font-normal font-[Orbit]">Go Back Home</a>
+  <header class="font-[Kanit] py-4 md:px-14">
+    <div class="container mx-auto flex items-center justify-around md:justify-between text-xl text-white">
+      <h2 class="text-2xl font-bold">Favoslav_</h2>
+      <nav class="">
+        <ul class="md:normal-case uppercase nav-links md:flex md:relative absolute top-0 left-0 md:py-0 py-4 w-full hidden items-center text-neutral-200 md:bg-transparent bg-[rgb(11,11,13)] z-20">
+          <li class="md:py-0 py-1 text-center">
+            <a href="/" class="px-5 hover:text-[#b83b3b] md:transition md:duration-300 md:ease-in-out">Home</a>
+          </li>
+          <li class="md:py-0 py-1 text-center">
+            <a href="/about" class="px-5 hover:text-[#b83b3b] md:transition md:duration-300 md:ease-in-out">About</a>
+          </li>
+          <li class="md:flex md:flex-col md:items-center group md:py-0 py-1 text-center">
+            <a href="#" class="px-5 hover:text-[#b83b3b] md:transition md:duration-300 md:ease-in-out">Projects</a>
+            <div class="md:flex hidden relative w-[68px] h-[3px] -mb-[3px] bg-[#b83b3b] group-hover:w-[76px] transition-all duration-300 ease-in-out"></div>
+          </li>
+          <li class="md:py-0 py-1 text-center"> 
+            <a href="/contact" class="md:mx-2 md:px-3 px-5 md:hover:text-black hover:text-[#b83b3b] md:bg-[#b83b3b] md:rounded-md md:text-black md:transition md:duration-300 md:ease-in-out">Contact</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="menu md:hidden">
+        <span class="sr-only">menu</span>
+        <svg fill="currentColor" viewBox="0 0 24 24" class="w-8">
+          <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z" />
+        </svg>
+      </button>
+      <button class="menu-close md:hidden hidden z-30 ease-in-out duration-200">
+        <span class="sr-only">menu close</span>
+        <svg fill="currentColor" viewBox="0 0 24 24" class="w-8">
+          <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z" />
+        </svg>
+      </button>
     </div>
+  </header>
+  <main class="mx-auto text-white">
+    <h1 class="font-[Kanit] text-white font-bold text-5xl text-center py-20 px-2">Projects</h1>
+    <div class="container mx-auto px-4 pb-4">
+      <h2 class="font-[Kanit] text-white font-semibold text-5xl text-center pt-4 px-2" id="loading">Loading...</h2>
+      <section class="hidden justify-center flex-wrap gap-12 pb-4" id="section1">
+      </section>
+    </div>
+    <script src="./script.js"></script>
   </main>
 </body>
 </html>

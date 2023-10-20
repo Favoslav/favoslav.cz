@@ -1,0 +1,122 @@
+body {
+  background-color: rgb(15, 15, 15);
+}
+
+.password {
+  padding: 16px;
+  margin: 8px;
+  border: 1px solid #f1f1f1;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  width: 274px;
+  margin-left: 8px;
+  border: 1px solid #282c3c;
+  background-color: #282c3c;
+}
+
+.div1 {
+  top: 25%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translateX(-50%);
+
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+/*.text { 
+  left: 1%;
+  right: 1%;
+  position: absolute;
+  color:rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  font-size:20px;
+  font-family:'Poppins', sans-serif;
+  font-weight:400;
+} */
+
+.text2 {
+  color: rgb(255, 95, 95);
+  text-decoration: underline;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.submit {
+  /* margin-left: 8px;*/
+  width: 274px;
+  height: 49px;
+  border-radius: 3px;
+  border: 1px solid #4285f4;
+  background-color: #4285f4;
+  padding: 1%;
+  color: white;
+  cursor: pointer;
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  font-size: 19px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+/*.form1 {
+  position: absolute;
+  top: 40%;
+  transform: translateY(-40%);
+  left: 50%;
+  transform: translateX(-50%);
+} */
+
+.login {
+  display: inline-block;
+  background-color: rgb(111, 130, 206);
+  border-radius: 3px;
+  border: 1px solid rgb(111, 130, 206);
+  padding: 12px;
+  cursor: pointer;
+  width: 248px;
+  margin: -11px;
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.discord {
+  position: absolute;
+  margin-left:0px;
+}
+
+.login2 {
+  display: inline-block;
+  background-color: rgb(111, 130, 206);
+  border-radius: 3px;
+  border: 1px solid rgb(111, 130, 206);
+  padding: 12px;
+  cursor: pointer;
+  width: 248px;
+  margin: -11px;
+
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+
+.discord2 {
+  position: absolute;
+}
